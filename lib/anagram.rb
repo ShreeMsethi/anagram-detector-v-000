@@ -15,13 +15,7 @@ class Anagram
     # array_sort = array.map{|w| w.split("").sort}.reject {|e| e!=w} 
     
     array.select{|e| e.split("").sort == w } #--> 
-    
-    # array_sort = array.each{|item| item.match}
-      
-    #   array_sort
-    # else
-      
-    # end
+
   end
   
 end
